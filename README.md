@@ -1,2 +1,2 @@
 # responsiveOnePage
-A Bootstrap Project Of Lynda's Ray Villalobos
+A Bootstrap Project While Learning With Lynda's Ray Villalobos
