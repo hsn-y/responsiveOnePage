@@ -18,3 +18,17 @@ body {
 .layout-social .layout-social-icon {
     font-size: 2em ;
 }
+
+.site-header {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.6)
+    );
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.site-header .layout-hero {
+    min-height: 50vh;
+}
