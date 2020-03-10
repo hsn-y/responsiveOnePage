@@ -3,6 +3,7 @@
 :root {
     --light-blue: #e1f7f5;
     --purple: #533777;
+    --light-purple: #c290d2;
     --font-family-sans-serif: 'Source Sans Pro', sans-serif ;
     --font-family-serif: 'Merriweather', serif ;
 }
@@ -75,4 +76,8 @@ body {
 
 .layout-photogrid .layout-image {
     background-color: var(--light-blue);
+}
+
+#page-carousel {
+    background-color: var(--light-purple);
 }
