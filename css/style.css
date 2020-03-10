@@ -72,3 +72,7 @@ body {
     font-weight: 200;
     font-size: 1.7em;
 }
+
+.layout-photogrid .layout-image {
+    background-color: var(--light-blue);
+}
