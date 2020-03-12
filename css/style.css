@@ -91,14 +91,6 @@ body {
     font-size: 1.2em;
 }
 
-/* Second Section */
-#page-muticolumn {
-    background-color: var(--light-blue);
-}
-
-#page-carousel {
-    background-color: var(--light-purple);
-}
 
 .icon {
     display: inline-block;
@@ -109,4 +101,35 @@ body {
     fill: gray !important;
     width: 70px;
     height: 70px;
+}
+
+/* Second Section */
+#page-muticolumn {
+    background-color: var(--light-blue);
+}
+
+#page-carousel {
+    background-color: var(--light-purple);
+}
+
+#page-floater {
+    background-color: var(--light-blue);
+}
+
+@media screen and (min-width: 768px) {
+    #page-floater {
+        margin: 150px 0 ;
+    }
+
+    .layout-floater .layout-container{
+        position: relative;
+    }
+
+    .layout-floater .layout-image {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) scale(1.6);
+    }
+
 }
