@@ -46,10 +46,7 @@ body {
     font-size: 1.2em;
 }
 
-/* Second Section */
-#page-muticolumn {
-    background-color: var(--light-blue);
-}
+
 
 .page-section-header .page-section-title {
     font-size: 4em;
@@ -67,14 +64,35 @@ body {
 
 }
 
-.layout-media .layout-title {
+.layout-media .layout-title,
+.layout-nested .layout-title  {
     color: var(--purple);
     font-family: var(--font-family-sans-serif);
+
+}
+
+.layout-media .layout-title {
     font-weight: 200;
     font-size: 1.7em;
 }
 
+.layout-nested .layout-title  {
+    font-size: 2.2em;
+}
+
+
+
+
 .layout-photogrid .layout-image {
+    background-color: var(--light-blue);
+}
+
+.layout-text {
+    font-size: 1.2em;
+}
+
+/* Second Section */
+#page-muticolumn {
     background-color: var(--light-blue);
 }
 
